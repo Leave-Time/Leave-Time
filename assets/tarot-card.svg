@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">The Creator tarot card placeholder</title>
+  <desc id="desc">A dark celestial tarot card with a central moon and stars.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#100d21"/><stop offset=".52" stop-color="#21183d"/><stop offset="1" stop-color="#0b1329"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#f7d98c" stop-opacity=".42"/><stop offset=".48" stop-color="#c79be8" stop-opacity=".14"/><stop offset="1" stop-color="#8b76c9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="stars" width="96" height="96" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="23" r="1.4" fill="#f6e7bd" opacity=".65"/><circle cx="68" cy="57" r="1" fill="#d8c7ff" opacity=".55"/><circle cx="89" cy="12" r=".8" fill="#fff" opacity=".5"/>
+    </pattern>
+  </defs>
+  <rect x="12" y="12" width="576" height="976" rx="30" fill="url(#bg)" stroke="#caa75c" stroke-width="5"/>
+  <rect x="31" y="31" width="538" height="938" rx="22" fill="url(#stars)" stroke="#caa75c" stroke-width="1.5" opacity=".95"/>
+  <path d="M54 150V62h88M458 62h88v88M54 850v88h88M458 938h88v-88" fill="none" stroke="#e5c87a" stroke-width="2"/>
+  <text x="300" y="98" text-anchor="middle" fill="#f1d996" font-family="Georgia,serif" font-size="25" letter-spacing="8">XXI</text>
+  <circle cx="300" cy="472" r="216" fill="url(#halo)"/>
+  <circle cx="300" cy="472" r="148" fill="none" stroke="#a98bd6" stroke-width="1.5" opacity=".55"/>
+  <circle cx="300" cy="472" r="114" fill="none" stroke="#e4c36f" stroke-width="2" opacity=".75"/>
+  <g fill="none" stroke="#d7bc72" stroke-width="3" opacity=".9">
+    <path d="M300 278v-38M300 704v-38M106 472H68M532 472h-38M163 335l-27-27M464 636l-27-27M163 609l-27 27M464 308l-27 27"/>
+  </g>
+  <g fill="#e9ce80">
+    <path d="M300 218l7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/><path d="M300 682l7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/>
+    <path d="M84 472l7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/><path d="M516 472l7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="300" cy="472" r="70" fill="#e6c36e" opacity=".16"/><circle cx="300" cy="472" r="46" fill="none" stroke="#f5dc91" stroke-width="3"/>
+    <path d="M319 431a47 47 0 1 0 0 82 56 56 0 1 1 0-82z" fill="#f5dc91"/>
+  </g>
+  <g fill="#d7c0ef" opacity=".9">
+    <circle cx="220" cy="395" r="4"/><circle cx="383" cy="391" r="3"/><circle cx="208" cy="548" r="3"/><circle cx="395" cy="552" r="4"/>
+    <path d="M195 455l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/><path d="M407 493l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/>
+  </g>
+  <path d="M205 780h190" stroke="#caa75c" stroke-width="1"/>
+  <text x="300" y="830" text-anchor="middle" fill="#f3dda0" font-family="Georgia,serif" font-size="38" letter-spacing="7">THE CREATOR</text>
+  <text x="300" y="873" text-anchor="middle" fill="#bca7d9" font-family="Georgia,serif" font-size="17" letter-spacing="5">IMAGINE · BUILD · EVOLVE</text>
+  <text x="300" y="923" text-anchor="middle" fill="#8f7dae" font-family="Arial,sans-serif" font-size="15" letter-spacing="3">REPLACE WITH YOUR ART</text>
+</svg>
